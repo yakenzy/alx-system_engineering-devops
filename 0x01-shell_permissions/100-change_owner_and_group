@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type fd -exec chgrp staff . sudo chown vincent .
+find . -type f,d -exec chgrp staff . sudo chown vincent .
